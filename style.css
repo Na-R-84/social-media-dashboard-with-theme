@@ -9,6 +9,8 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  min-width: 300px;
+  margin: auto;
 }
 
 header {
@@ -218,7 +220,7 @@ main .card-container .card h4 {
 main .card-container .card .follow {
   letter-spacing: 3px;
   color: #63687D;
-  font-weight: 100;
+  font-weight: 400;
   font-size: 12px;
 }
 
@@ -229,7 +231,7 @@ main .card-container .card .date {
 }
 
 main .card-container .card .date::before {
-  content: url("/images/icon-up.svg");
+  content: url("./images/icon-up.svg");
   margin-right: .5rem;
 }
 
@@ -238,7 +240,7 @@ main .card-container .card:hover {
 }
 
 main .card-container .card.card-1 .name::before {
-  content: url("/images/icon-facebook.svg");
+  content: url("./images/icon-facebook.svg");
   margin-right: .5rem;
   vertical-align: top;
 }
@@ -251,7 +253,7 @@ main .card-container .card.card-1::before {
 }
 
 main .card-container .card.card-2 .name::before {
-  content: url("/images/icon-twitter.svg");
+  content: url("./images/icon-twitter.svg");
   margin-right: .5rem;
   vertical-align: top;
 }
@@ -264,7 +266,7 @@ main .card-container .card::before {
 }
 
 main .card-container .card.card-3 .name::before {
-  content: url("/images/icon-instagram.svg");
+  content: url("./images/icon-instagram.svg");
   margin-right: .5rem;
   vertical-align: top;
 }
@@ -278,7 +280,7 @@ main .card-container .card.card-3::before {
 }
 
 main .card-container .card.card-4 .name::before {
-  content: url("/images/icon-youtube.svg");
+  content: url("./images/icon-youtube.svg");
   margin-right: .5rem;
   vertical-align: top;
 }
@@ -288,7 +290,7 @@ main .card-container .card.card-4 .date {
 }
 
 main .card-container .card.card-4 .date::before {
-  content: url("/images/icon-down.svg");
+  content: url("./images/icon-down.svg");
 }
 
 main .card-container .card.card-4::before {
@@ -370,7 +372,7 @@ main .overview section:hover {
 }
 
 main .overview section .level p::before {
-  content: url("/images/icon-up.svg");
+  content: url("./images/icon-up.svg");
   margin-right: .2rem;
 }
 
@@ -405,11 +407,11 @@ main .overview section .level p {
 }
 
 main .overview section.box-1 .media span {
-  content: url("/images/icon-facebook.svg");
+  content: url("./images/icon-facebook.svg");
 }
 
 main .overview section.box-2 .media span {
-  content: url("/images/icon-facebook.svg");
+  content: url("./images/icon-facebook.svg");
 }
 
 main .overview section.box-2 .level p {
@@ -417,20 +419,20 @@ main .overview section.box-2 .level p {
 }
 
 main .overview section.box-2 .level p::before {
-  content: url("/images/icon-down.svg");
+  content: url("./images/icon-down.svg");
   margin-right: .2rem;
 }
 
 main .overview section.box-3 .media span, main .overview section.box-4 .media span {
-  content: url("/images/icon-instagram.svg");
+  content: url("./images/icon-instagram.svg");
 }
 
 main .overview section.box-5 .media span, main .overview section.box-6 .media span {
-  content: url("/images/icon-twitter.svg");
+  content: url("./images/icon-twitter.svg");
 }
 
 main .overview section.box-7 .media span, main .overview section.box-8 .media span {
-  content: url("/images/icon-youtube.svg");
+  content: url("./images/icon-youtube.svg");
 }
 
 main .overview section.box-7 .level p, main .overview section.box-8 .level p {
@@ -438,7 +440,7 @@ main .overview section.box-7 .level p, main .overview section.box-8 .level p {
 }
 
 main .overview section.box-7 .level p::before, main .overview section.box-8 .level p::before {
-  content: url("/images/icon-down.svg");
+  content: url("./images/icon-down.svg");
   margin-right: .2rem;
 }
 
@@ -448,7 +450,6 @@ main .overview section.box-7 .level p::before, main .overview section.box-8 .lev
 
 .dark header {
   background-color: #20222F;
-  height: 244px;
   border-radius: 0 0 20px 20px;
 }
 
@@ -478,10 +479,6 @@ main .overview section.box-7 .level p::before, main .overview section.box-8 .lev
 
 .dark main .middle-heading {
   color: #fff;
-}
-
-.dark main .overview {
-  padding-bottom: 10rem;
 }
 
 .dark main .overview section {

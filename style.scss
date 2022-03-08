@@ -46,6 +46,8 @@
 }
 body{
     font-family: 'Inter', sans-serif; 
+    min-width: 300px;
+    margin: auto;
 }
 
 
@@ -189,9 +191,7 @@ main{
       
                 margin: 1%;
             }
-            // @media (min-width:1080px) {
-    
-            // }
+   
             .name{
                 color: #63687D;
                 font-size: 12px;
@@ -208,7 +208,7 @@ main{
             .follow{
               letter-spacing: 3px;
               color: #63687D;
-              font-weight:100;
+              font-weight:400;
               font-size: 12px;
             }
             .date{
@@ -216,7 +216,7 @@ main{
                 color:#1EB589 ;
                 padding: 1.5rem 0;
                 &::before{
-                    content: url('/images/icon-up.svg');
+                    content: url('./images/icon-up.svg');
                     margin-right: .5rem;
     
                 }
@@ -227,7 +227,7 @@ main{
             }
             &.card-1{
                 .name::before{
-                    content:url('/images/icon-facebook.svg');
+                    content:url('./images/icon-facebook.svg');
                     margin-right: .5rem;
                     vertical-align:top;
                 }
@@ -240,7 +240,7 @@ main{
             }
             &.card-2{
                 .name::before{
-                    content:url('/images/icon-twitter.svg');
+                    content:url('./images/icon-twitter.svg');
                     margin-right: .5rem;
                     vertical-align:top;
                 }
@@ -253,7 +253,7 @@ main{
             }
             &.card-3{
                 .name::before{
-                    content:url('/images/icon-instagram.svg');
+                    content:url('./images/icon-instagram.svg');
                     margin-right: .5rem;
                     vertical-align:top;
                 }
@@ -266,14 +266,14 @@ main{
             }
             &.card-4{
                 .name::before{
-                    content:url('/images/icon-youtube.svg');
+                    content:url('./images/icon-youtube.svg');
                     margin-right: .5rem;
                     vertical-align:top;
                 }
                 .date{
                     color:#DC414C ;
                     &::before{
-                        content: url('/images/icon-down.svg');
+                        content: url('./images/icon-down.svg');
                     }
                 }
                 &::before{
@@ -336,7 +336,7 @@ main{
             .level{
                 p{
                     &::before{
-                        content: url('/images/icon-up.svg');
+                        content: url('./images/icon-up.svg');
                         margin-right: .2rem;
                     }
                 }
@@ -362,7 +362,7 @@ main{
             &.box-1{
                .media{
                    span{
-                       content: url('/images/icon-facebook.svg');
+                       content: url('./images/icon-facebook.svg');
                    }
                }
              
@@ -370,14 +370,14 @@ main{
             &.box-2{
                 .media{
                     span{
-                        content: url('/images/icon-facebook.svg');
+                        content: url('./images/icon-facebook.svg');
                     }
                 }
                 .level{
                     p{
                         color: #DC414C;
                         &::before{
-                            content: url('/images/icon-down.svg');
+                            content: url('./images/icon-down.svg');
                             margin-right: .2rem;
                         }
                     }
@@ -386,7 +386,7 @@ main{
             &.box-3, &.box-4{
                 .media{
                     span{
-                        content: url('/images/icon-instagram.svg');
+                        content: url('./images/icon-instagram.svg');
                     }
                 }
             }
@@ -394,7 +394,7 @@ main{
             &.box-5,&.box-6{
                 .media{
                     span{
-                        content: url('/images/icon-twitter.svg');
+                        content: url('./images/icon-twitter.svg');
                     }
                 }
           
@@ -402,14 +402,14 @@ main{
             &.box-7,&.box-8{
                 .media{
                     span{
-                        content: url('/images/icon-youtube.svg');
+                        content: url('./images/icon-youtube.svg');
                     }
                 }
                 .level{
                     p{
                         color: #DC414C;
                         &::before{
-                            content: url('/images/icon-down.svg');
+                            content: url('./images/icon-down.svg');
                             margin-right: .2rem;
                         }
                     }
@@ -427,7 +427,6 @@ main{
     background-color: #1D1F29;
     header{
         background-color: #20222F;
-        height: 244px;
         border-radius:0 0 20px 20px ;
         nav{
 
@@ -460,7 +459,6 @@ main{
             color: #fff;
         }
         .overview{
-            padding-bottom: 10rem;
             section{
                 background-color: #252B42;
                 h4{
